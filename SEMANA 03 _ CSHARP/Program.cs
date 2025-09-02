@@ -27,8 +27,20 @@ namespace SEMANA_03___CSHARP
 
         static void ejercicio2()
         {
+            Console.Write("Ingrese numero x: ");
+            int x = int .Parse( Console.ReadLine() );
+            Console.Write("Ingrese numero y: ");
+            int y = int.Parse(Console.ReadLine());
+            double resu = x / y;
+
+            Console.WriteLine("suma: "+(x+y));
+            Console.WriteLine("resta: " + (x - y));
+            Console.WriteLine("multiplicacion: " + (x * y));
+            Console.WriteLine("division: " + resu);
+            Console.ReadKey();
 
         }
+     
 
         static void ejercicio3()
         {
