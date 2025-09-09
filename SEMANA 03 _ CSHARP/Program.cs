@@ -44,12 +44,23 @@ namespace SEMANA_03___CSHARP
 
         static void ejercicio3()
         {
-
+            Console.WriteLine("\"ANTONY\"");
         }
 
         static void ejercicio4()
         {
+            Console.WriteLine("Ingrese un numero decimal: ");
+            double num = Convert.ToDouble(Console.ReadLine());
 
+            double raiz2 = Math.Sqrt(num);
+            int redo = (int)Math.Round(num,0);
+            double cubo = Math.Pow(num, 3);
+            double raiz3= Math.Pow(num, 1/3d);
+            Console.WriteLine("Raiz 2: " + raiz2);
+            Console.WriteLine("Redondeado: " + redo);
+            Console.WriteLine("Al cubo: "+ cubo);
+            Console.WriteLine("Raiz3: " + raiz3);
+            Console.ReadKey();
         }
         static void ejercicio5()
 
