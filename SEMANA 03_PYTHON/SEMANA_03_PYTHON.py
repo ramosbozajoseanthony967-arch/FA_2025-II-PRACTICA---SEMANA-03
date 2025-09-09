@@ -27,4 +27,16 @@ def ejercicio4():
      print ("Al cubo: ", math.pow (num,3))
      print ("Raiz 3: ", num** (1/3))
 
-ejercicio4()
+
+def ejercicio5():
+  num= input ("Ingrese un numero entero: ")
+
+  entero = int (num)
+  deci = float (num)
+
+  print ("Resto: ", (entero%2))
+  print ("Division: ", (deci/3))
+  
+ejercicio1()
+               
+

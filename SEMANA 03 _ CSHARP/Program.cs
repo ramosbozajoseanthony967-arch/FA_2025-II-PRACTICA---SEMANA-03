@@ -65,6 +65,14 @@ namespace SEMANA_03___CSHARP
         static void ejercicio5()
 
         {
+         Console.WriteLine("Ingrese numero: ");
+            string num = Console.ReadLine();
+
+            int entero = int.Parse(num);
+            double deci = double.Parse(num);
+
+            Console.WriteLine("Resto: " + (entero % 2));
+            Console.WriteLine("Division: " + (deci / 3));
 
         }
         static void ejercicio6()
