@@ -31,7 +31,7 @@ namespace SEMANA_03___CSHARP
             int x = int .Parse( Console.ReadLine() );
             Console.Write("Ingrese numero y: ");
             int y = int.Parse(Console.ReadLine());
-            double resu = x / y;
+            double resu = (double) x / (double)y;
 
             Console.WriteLine("suma: "+(x+y));
             Console.WriteLine("resta: " + (x - y));
